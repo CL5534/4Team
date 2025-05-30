@@ -42,7 +42,7 @@ function App() {
         <div className="big_Box">
           {/* 큰네모 */}
           <div className="up_Box">
-            {/* 위네모 */}
+            {/* 위네모dsss */}
             <button
               className={`up_Box_button ${category === "furniture" ? "active" : ""}`} // 🔴 선택된 카테고리 버튼에 active 클래스 추가
               onClick={() => handleCategoryChange("furniture")} // 🔴 클릭 시 카테고리 변경
